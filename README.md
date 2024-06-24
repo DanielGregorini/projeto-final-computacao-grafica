@@ -1,6 +1,6 @@
 # Bicicleta feita no OpenGL
 
-##By: Daniel Mahl Gregorini
+## By: Daniel Mahl Gregorini
 
 para rodar tenha o opengl instalado no seu compilador de c
 
