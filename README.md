@@ -1,9 +1,12 @@
-para rodar tenha o opengl instalado no seu compilador de compilador
+# Bicicleta feita no OpenGL
+
+##By: Daniel Mahl Gregorini
+
+para rodar tenha o opengl instalado no seu compilador de c
 
 cole o arquivo "grama.jpg" no diretorio "C\"
 
 COMANDOS:
-
 '+' para aumentar a velocidade
 '-' para diminuir a velocidade
 'b' para rotacionar o guidao em direção horária
