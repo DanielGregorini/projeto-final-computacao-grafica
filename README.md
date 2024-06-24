@@ -4,7 +4,7 @@
 
 para rodar tenha o opengl instalado no seu compilador de c
 
-cole o arquivo "grama.jpg" no diretorio "C\"
+cole o arquivo "grama.jpg" na mesma pasta do .exe
 
 COMANDOS:
 '+' para aumentar a velocidade

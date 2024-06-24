@@ -131,7 +131,7 @@ void atualizarCena()
 }
 
 int carregarTexturas() {
-    texture = SOIL_load_OGL_texture ( "C:\\grama.jpg", SOIL_LOAD_RGBA, SOIL_CREATE_NEW_ID,SOIL_FLAG_INVERT_Y);
+    texture = SOIL_load_OGL_texture ( "/grama.jpg", SOIL_LOAD_RGBA, SOIL_CREATE_NEW_ID,SOIL_FLAG_INVERT_Y);
 
     if (texture == 0) {
         fprintf(stderr, "Erro ao carregar textura: %s\n", SOIL_last_result());
@@ -833,11 +833,12 @@ void ajuda(void)
     printf("Computacao Grafica\n");
     printf("'+' para aumentar a velocidade\n");
     printf("'-' para diminuir a velocidade\n");
-    printf("'b' para rotacionar o guidao em direção horária\n");
-    printf("'z' para rotacionar o guidao em direção anti-horária\n");
+    printf("'b' para rotacionar o guidao em direcao horaria\n");
+    printf("'z' para rotacionar o guidao em direcao anti-horaria\n");
     printf("'s' para reiniciar a cena\n");
     printf("Teclas de seta para mover a câmera\n");
     printf("Mouse para mover a cena\n");
+    printf("\n\n\nESPERE UNS SEGUNDOS PARA CARREGAR A TEXTURA\n");
 }
 
 int main(int argc, char *argv[])
