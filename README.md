@@ -4,6 +4,9 @@
 
 para rodar tenha o opengl instalado no seu compilador de c
 
+descompacte a pasta soil.zip
+
+
 cole o arquivo "grama.jpg" na mesma pasta do .exe
 
 COMANDOS:
